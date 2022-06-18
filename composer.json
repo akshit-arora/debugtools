@@ -1,0 +1,26 @@
+{
+    "name": "akshitarora/debugtools",
+    "description": "Common debugging tools in laravel development",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akshit Arora",
+            "email": "akshit.arora0907@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AkshitArora\\DebugTools\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AkshitArora\\DebugTools\\DebugToolsServiceProvider"
+            ]
+        }
+    }
+}
